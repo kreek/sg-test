@@ -1,4 +1,5 @@
 name: ci
+base_branch_name: main
 on:
   push:
     branches:
