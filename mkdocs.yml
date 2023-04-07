@@ -8,7 +8,15 @@ theme:
 
 plugins:
   - techdocs-core
-  - search
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - footnotes
 
 nav:
   - Introduction: index.md
