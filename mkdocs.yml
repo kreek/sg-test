@@ -8,6 +8,8 @@ theme:
 
 plugins:
   - techdocs-core
+  - search:
+      lang: en
 markdown_extensions:
   - admonition
   - pymdownx.details
