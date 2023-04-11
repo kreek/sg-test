@@ -3,9 +3,7 @@ site_url: https://kreek.github.io/sg-test/
 theme:
   name: material
   palette:
-    scheme: default
     primary: white
-    accent: blue
   features:
     - navigation.instant
     - navigation.indexes
