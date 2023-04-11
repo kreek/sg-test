@@ -1,4 +1,4 @@
-site_name: Lighthouse API Standards
+site_name: Lighthouse API Standardzz
 site_url: https://kreek.github.io/sg-test/
 theme:
   name: material
@@ -8,7 +8,6 @@ theme:
     - content.code.annotate
 plugins:
   - techdocs-core
-  - search
 markdown_extensions:
   - admonition
   - pymdownx.details
