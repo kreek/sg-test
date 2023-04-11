@@ -1,20 +1,14 @@
-site_name: Lighthouse API Standardz
+site_name: Lighthouse API Standards
 site_url: https://kreek.github.io/sg-test/
 theme:
   name: material
-  palette:
-    scheme: default
-    primary: white
-    accent: blue
   features:
     - navigation.instant
     - navigation.indexes
     - content.code.annotate
-  include_search_page: false
-  search_index_only: true
-
 plugins:
   - techdocs-core
+  - search
 markdown_extensions:
   - admonition
   - pymdownx.details
